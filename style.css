@@ -1,0 +1,136 @@
+/* This will style the body element */
+body {
+    background-color: slategray;
+    /*  "Department of Coffee and Social Affairs" by Michael Dales is licensed under CC BY-NC 2.0*/
+    background-image: url(images/Blue_Bottle\,_Kyoto_Style_Ice_Coffee_\(5909775445\).jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+/* This will style the wrapper class to center the content */
+.wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1024px;
+}
+
+/* This will style the header where the logo will go */
+header {
+    /* background-color: blue; */
+    min-height: 120px;
+}
+
+.logoImage {
+    height: 124px;
+}
+
+/* This will style the nav box */
+nav {
+    background-color: rgba(43, 183, 226, 0.377);
+    min-height: 45px;
+    text-align: center;
+    padding-top: 14px;
+    padding-bottom: 14px;
+}
+
+/* Style the links to other pages for both nav and link to Portledge website */
+a {
+    color: whitesmoke;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Compound Selector - target only links inside of the nav */
+nav a {
+    text-decoration: none;
+    font-size: 18px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+/* This will style the main */
+main {
+    /* background-color: darkorange; */
+    min-height: 400px;
+    text-align: center;
+    padding-top: 16px;
+    padding-left: 240px;
+    padding-right: 240px;
+}
+
+/* Compound Selector */
+main h1 {
+    font-size: 85px;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 1px 1px 2px chocolate;
+}
+
+/* Do This: set the font size to 50 px, change the color to white, 
+    pick a font family of your choice, add a text shadow   */
+main h2 {
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 1px 1px 2px chocolate;
+}
+
+/* Do This: set the size to 18px, change the color to rgba(249,111, 93, 1),
+    change the font family, and also add a text shadow */
+main p {
+    font-size: 18px;
+    color: #f4c661;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 1px 1px 2px black;
+    margin-bottom: 32px;
+}
+
+/* Contact Page Specific content */
+.contactBody {
+    background-image: url(images/019-jakubk-0045-coffee-beans-closeup-teaser.jpeg);
+}
+
+#contactUsH2 {
+    text-transform: uppercase;
+}
+
+.contactMain {
+    background-color: rgba(255, 228, 196, 0.432);
+    margin-top: 16px;
+}
+
+.hours {
+    line-height: 1.25;
+}
+
+address {
+    padding: 24px;
+}
+
+/* index page button that does nothing */
+.myButton {
+    margin-top: 32px;
+    text-decoration: none;
+    padding: 20px 40px;
+    border: 1px solid black;
+    background-color: aquamarine;
+    color: blueviolet;
+    border-radius: 20px;
+}
+
+.map {
+    margin-top: 32px;
+    text-align: center;
+}
+
+footer {
+    background-color: rgba(43, 183, 226, 0.246);
+    min-height: 75px;
+}
+
+footer p {
+    color: whitesmoke;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 16px;
+}
